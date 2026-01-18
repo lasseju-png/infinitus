@@ -1,0 +1,73 @@
+h1 {
+    color: white;
+    background-color: rgb(9, 133, 161);
+    font-size: 2em;
+    text-align: center;
+    font-family: Consolas, "Courier New", monospace;
+}
+
+h2 { 
+  color: white;
+  background-color: rgb(9, 133, 161);
+  font-size: 1.5em;
+  text-align: center;
+  font-family: Consolas, "Courier New", monospace;
+}
+
+h3 { 
+  color: rgb(9, 133, 161);
+  font-size: 1.5em;
+  text-align: center;
+  font-family: Consolas, "Courier New", monospace;
+}
+
+p {
+  color: rgb(9, 133, 161);
+  text-align: center; 
+  font-family: Consolas, "Courier New", monospace; 
+}
+
+ul {
+    color: black;
+    font-family: sans-serif; 
+}
+
+body {
+    background-color: #cbe5fb;
+    margin: 0;
+  }
+
+.menu {
+  background-color: #3498db; /* Farbe der Leiste */
+  padding: 10px; /* Abstand innen */
+  display: flex; /* Links nebeneinander */
+  gap: 20px; /* Abstand zwischen Links */
+}
+.menu a {
+  color: white; /* Textfarbe */
+  text-decoration: none;
+  font-weight: bold;
+  font-family: Consolas, "Courier New", monospace; 
+
+}
+
+figcaption {
+	font-family: Consolas, "Courier New", monospace;
+}
+
+footer {
+    font-family: Consolas, "Courier New", monospace;
+    text-align: center; 
+}
+
+.bilder-container {
+    display: flex;
+    gap: 20px;              /* Abstand zwischen den Bildern */
+    justify-content: center; /* links | center | space-between | space-around */
+    align-items: center;
+}
+
+.bilder-container img {
+    width: 200px;   /* optional */
+    height: auto;
+}
